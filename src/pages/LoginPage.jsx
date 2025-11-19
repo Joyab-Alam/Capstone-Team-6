@@ -11,7 +11,7 @@ export default function LoginPage() {
     e.preventDefault();
     // Replace with env vars or API call
     if (id === "admin" && password === "1234") {
-      navigate("/resultlog");
+      navigate("/result");
     } else {
       setError("❌ Incorrect ID or Password");
     }
